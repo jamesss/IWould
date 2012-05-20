@@ -1,12 +1,12 @@
 {
-  "name": "CrayBook",
+  "name": "I Would!",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Replaces all 'Like' links with 'Dat Shit Cray'",
+  "description": "Replaces all 'Like' links with 'Phwoaar, I would!'",
   "content_scripts": [
     {
       "matches": ["*://*.facebook.com/*"],
-      "js": ["jquery-1.7.2.min.js", "craybook.js"]
+      "js": ["jquery-1.7.2.min.js", "iwould.js"]
     }
   ]
 }
